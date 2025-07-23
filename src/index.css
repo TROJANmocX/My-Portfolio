@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-background text-dark-900 dark:bg-dark-900 dark:text-white transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
